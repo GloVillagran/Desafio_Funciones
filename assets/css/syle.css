@@ -1,0 +1,34 @@
+#oneColor{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    
+}
+
+#twoColor {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin-top: 1em;
+}
+
+#threeColor {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    margin-top: 1em;
+}
+
+#fourColor {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    margin-top: 1em;
+}
+
+#key {
+    height: 200px;
+    width: 200px;
+    border: solid black;
+    margin-top: 1em;
+}
