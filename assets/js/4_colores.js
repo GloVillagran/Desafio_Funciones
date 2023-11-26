@@ -6,23 +6,23 @@ const fourColor = document.querySelector('#fourColor');
 const keyDiv = document.querySelector('#key');
 
 
-const changeColor = function(element) {
+const changeColor = function (element) {
     element.style.backgroundColor = 'black';
 };
 
-oneColor.addEventListener("click", function() {
+oneColor.addEventListener("click", function () {
     changeColor(oneColor);
 });
 
-twoColor.addEventListener("click", function() {
+twoColor.addEventListener("click", function () {
     changeColor(twoColor);
 });
 
-threeColor.addEventListener("click", function() {
+threeColor.addEventListener("click", function () {
     changeColor(threeColor);
 });
 
-fourColor.addEventListener("click", function() {
+fourColor.addEventListener("click", function () {
     changeColor(fourColor);
 });
 
@@ -38,7 +38,7 @@ const createNewDiv = function (color) {
 };
 
 document.addEventListener('keydown', function (event) {
-    const key = event.key.toLowerCase(); 
+    const key = event.key.toLowerCase();
 
     if (key === 'a') {
         changeColorKey('pink');
